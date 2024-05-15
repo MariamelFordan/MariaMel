@@ -92,6 +92,16 @@
 
         });
 
+        //handle clear button
+        function handClear(){
+            setCalc({
+                current: '0',
+                total: '',
+                insInitial: true,
+                preOp: ''
+        });
+    }
+
 
         return (
             <div className="Calculator">
